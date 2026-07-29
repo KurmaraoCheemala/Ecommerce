@@ -13,5 +13,4 @@ spring:
     hibernate:
       ddl-auto: update
     properties:
-      formate_sql: true
     show-sql: true
