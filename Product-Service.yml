@@ -1,1 +1,17 @@
 
+server:
+  port: 8081
+spring:
+  application:
+    name: Product-Service
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/productservice
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      formate_sql: true
+    show-sql: true
