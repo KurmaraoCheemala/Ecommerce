@@ -24,7 +24,7 @@ spring:
 #     fetch-registry: true
 logging:
   file:
-    name: log/${spring.application.name}.log 
+    name: logs/${spring.application.name}.log 
     
   logback:
     rollingpolicy:
