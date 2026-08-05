@@ -23,3 +23,12 @@ spring:
 #   client:
 #     register-with-eureka: true
 #     fetch-registry: true
+logging:
+  file:
+    name: log/${spring.application.name}.log 
+    
+  logback:
+    rollingpolicy:
+      max-file-size:
+        5 mb
+      max-history: 7
